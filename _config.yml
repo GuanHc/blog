@@ -13,7 +13,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -72,4 +72,4 @@ deploy:
   repo: https://github.com/GuanHc/blog.git
   branch: gh-pages
 #avatar
-avatar: /images/avatar.jpg
+avatar: images/avatar.jpg
