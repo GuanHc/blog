@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Blog
 subtitle:
-description:
-author: John Doe
-language:
+description: 等到尘埃落定,才发现曾经被我们念念不忘的时光,只是沧海一粟
+author: 少年乖
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,9 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/GuanHc/blog.git
+  branch: gh-pages
+#avatar
+avatar: /images/avatar.jpg
